@@ -1,0 +1,33 @@
+.dashboard-container {
+    /* padding: 0.5rem; */
+    background-color: #f9f9f9;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 0.5rem; */
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+    
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0.5rem;
+  }
+  
+  .task-list-card {
+    background: #fff;
+  }
+  
+  .progress-card,
+  .calendar-card,
+  .note-card {
+    margin-bottom: 0.5rem;
+  }
+  
